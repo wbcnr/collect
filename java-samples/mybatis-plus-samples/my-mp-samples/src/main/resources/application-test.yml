@@ -1,0 +1,131 @@
+
+# 下面两种，哪种才是正确的呢？
+# 将druid的配置单独列出 这个配置，在druid的监控页面上也能看到相关的参数配置，也符合DynamicDataSourceProperties这个类的配置逻辑。
+# druid的参数可以设置在spring.datasource ， spirng.datasource.dynamic和
+# spring.datasource.dynamic.datasource.mast(qita)下，默认是继承关系，重复则覆盖。
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      strict: false     # 严格模式：否：如果没有找到匹配的数据源则使用默认数据源。是：找不到数据源会抛出异常；
+      datasource:
+        master:
+          url: jdbc:mysql://localhost:3306/sd_mis?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+          username: root
+          password: mpw:z4WWUYxz2OSdSPhqwTtNgg==
+          driver-class-name: com.mysql.cj.jdbc.Driver
+        slave_1:
+          url: jdbc:mysql://localhost:3306/nacos-config?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+          username: root
+          password: mpw:z4WWUYxz2OSdSPhqwTtNgg==
+          driver-class-name: com.mysql.cj.jdbc.Driver
+      type:  com.alibaba.druid.pool.DruidDataSource  # 指定数据源类型为Druid
+      druid:
+        initial-size: 5  # 初始化连接数
+        min-idle: 5  # 最小空闲连接数
+        max-active: 20  # 最大活动连接数
+        max-wait: 60000  # 最大等待时间，单位毫秒
+        time-between-eviction-runs: 60000  # 多久进行一次空闲连接检测，单位毫秒
+        min-eviction-delay-time: 30000  # 空闲连接最小保留时间，单位毫秒
+        validation-query: SELECT 1 FROM DUAL  # 验证连接是否有效的查询语句
+        test-on-borrow: false  # 申请连接时是否检测连接是否有效，设置为false可提高性能
+        test-on-return: false  # 归还连接时是否检测连接是否有效
+        pool-prepared-statements: true  # 是否缓存预编译语句
+        max-pool-prepared-statements: 20  # 缓存的预编译语句最大数量
+        filters: stat,wall,slf4j  # 配置Druid的监控统计和防御SQL注入的过滤器
+        # 配置打印sql日志
+        filter:
+          slf4j:
+            enabled: true  #开启日志
+            statement-log-enabled: false #这里不配置的话 sql会被重复打印
+            statement-executable-sql-log-enable: true #打印执行sql的
+        connection-properties:
+        config-decrypt: false #是否对密码解密
+
+  autoconfigure:
+    # 去除druid配置。是否需要，根据druid连接池的类型。如果druid连接池为starter类型，则需要排除。否则，不需要。
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+# p6spy测试
+#spring:
+#  datasource:
+#    dynamic:
+#      primary: master
+#      strict: false     # 严格模式：否：如果没有找到匹配的数据源则使用默认数据源。是：找不到数据源会抛出异常；
+#      datasource:
+#        master:
+#          url: jdbc:p6spy:mysql://localhost:3306/sd_mis?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+#          username: root
+#          password: password
+#          driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+#        slave_1:
+#          url: jdbc:p6spy:mysql://localhost:3306/nacos-config?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+#          username: root
+#          password: password
+#          driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+#      type:  com.alibaba.druid.pool.DruidDataSource  # 指定数据源类型为Druid
+#      druid:
+#        initial-size: 5  # 初始化连接数
+#        min-idle: 5  # 最小空闲连接数
+#        max-active: 20  # 最大活动连接数
+#        max-wait: 60000  # 最大等待时间，单位毫秒
+#        time-between-eviction-runs: 60000  # 多久进行一次空闲连接检测，单位毫秒
+#        min-eviction-delay-time: 30000  # 空闲连接最小保留时间，单位毫秒
+#        validation-query: SELECT 1 FROM DUAL  # 验证连接是否有效的查询语句
+#        test-on-borrow: false  # 申请连接时是否检测连接是否有效，设置为false可提高性能
+#        test-on-return: false  # 归还连接时是否检测连接是否有效
+#        pool-prepared-statements: true  # 是否缓存预编译语句
+#        max-pool-prepared-statements: 20  # 缓存的预编译语句最大数量
+#        filters: stat,wall  # 配置Druid的监控统计和防御SQL注入的过滤器
+#        connection-properties:
+#        config-decrypt: false #是否对密码解密
+#  autoconfigure:
+#    # 去除druid配置。是否需要，根据druid连接池的类型。如果druid连接池为starter类型，则需要排除。否则，不需要。
+#    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+
+# 单个数据源配置
+#spring:
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource  # 指定数据源类型为Druid
+#    driver-class-name: com.mysql.cj.jdbc.Driver   # MySQL数据库驱动类名
+#    url: jdbc:mysql://localhost:3306/sd_mis?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+#    username: root
+#    password: password
+#
+#    # Druid连接池配置
+#    druid:
+#      initial-size: 5  # 初始化连接数
+#      min-idle: 5  # 最小空闲连接数
+#      max-active: 20  # 最大活动连接数
+#      max-wait: 60000  # 最大等待时间，单位毫秒
+#      time-between-eviction-runs: 60000  # 多久进行一次空闲连接检测，单位毫秒
+#      min-eviction-delay-time: 30000  # 空闲连接最小保留时间，单位毫秒
+#      validation-query: SELECT 1 FROM DUAL  # 验证连接是否有效的查询语句
+#      test-on-borrow: false  # 申请连接时是否检测连接是否有效，设置为false可提高性能
+#      test-on-return: false  # 归还连接时是否检测连接是否有效
+#      pool-prepared-statements: true  # 是否缓存预编译语句
+#      max-pool-prepared-statements: 20  # 缓存的预编译语句最大数量
+#      filters: stat,wall  # 配置Druid的监控统计和防御SQL注入的过滤器
+
+
+# mybatis-plus
+mybatis-plus:
+  # Maven 多模块项目的扫描路径需以 classpath*: 开头 （即加载多个 jar 包下的 XML 文件）
+  mapper-locations: classpath*:com/example/mympsamples/mapper/xml/*.xml
+  # 全局配置逻辑删除
+  global-config:
+    db-config:
+      logic-delete-field: deleted # 全局逻辑删除字段名
+      logic-delete-value: 0 # 逻辑已删除值
+      logic-not-delete-value: 1 # 逻辑未删除值
+
+# 日志配置，可根据需要调整
+logging:
+  level:
+    druid:
+      sql:
+        Statement: debug  # 这里也很重要 这里就是将sql的打印级别调整为debug
+    com.example.mympsamples: debug  # 将示例项目中的dao层日志级别设置为debug，可按需修改
+    com.baomidou.dynamic: debug            # 调试 dynamic-datasource
+    org.spirngframework: debug             # 调试spring？？
