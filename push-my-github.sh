@@ -5,13 +5,14 @@
 # git log --pretty=oneline --abbrev-commit
 
 git add * 
-git commit -m "增加一个项目xx-slf4j-demo"
+git commit -m "同步标签"
 # 给commit打标签
-git tag Ver20250508-2
+git tag Ver20250508-4 HEAD
 
 # 设置全局用户名与邮件地址
 #git config --global user.name "wbcnr"
 #git config --global user.email "chenojing@qq.com"
 
 # 推送到远程github仓库。
-git push origin main
+git push origin Ver20250508-4
+#git push origin --tags
