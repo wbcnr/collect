@@ -14,4 +14,4 @@ git tag Ver20250508-2
 #git config --global user.email "chenojing@qq.com"
 
 # 推送到远程github仓库。
-git push -u origin main
+git push origin main
