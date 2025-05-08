@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>xx-slf4j-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <!--slf4j + log4j2.x -->
+        <!--这个版本会报错，不会产生日志！原因暂时不明-->
+        <!--
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-to-slf4j</artifactId>
+            <version>2.22.1</version>
+        </dependency>
+        -->
+        <!--slf4j + log4j2.x -->
+        <!--这个版本会产生日志，并且生成日志文件。
+            他会自动依赖 slf4j-api 和 log4j2
+        -->
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.22.1</version>
+        </dependency>
+
+        <!--slf4j + log4j1.x 结合。这是老版本的，老版本的log4j有bug，需要升级到最新的版本-->
+        <!--slf4j的jar包-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-api</artifactId>-->
+<!--            <version>2.0.9</version>-->
+<!--        </dependency>-->
+        <!--然后，弄到slf4j与log4j的关联jar包，通过这个东西，将对slf4j接口的调用转换为对log4j
+        的调用，不同的日志实现框架，这个转换工具不同-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-log4j12</artifactId>-->
+<!--            <version>2.0.9</version>-->
+<!--        </dependency>-->
+        <!--当然了，slf4j-log4j12这个包肯定依赖了slf4j和log4j，所以使用slf4j+log4j的组合只
+        要配置上面这一个依赖就够了。-->
+        <!--是否可以指定log4j的高级版本-->
+
+        <!-- 只希望junit在src下的main中使用 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+        </dependency>
+
+    </dependencies>
+
+
+
+
+</project>

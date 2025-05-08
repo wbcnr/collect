@@ -1,0 +1,5 @@
+2024-01-04 13:27:09.318 [main] INFO  com.example.MyLog4j22SLF4j - this is log4j-slf4j-impl,log4j 2 and slf4j 2
+2024-01-04 13:27:09.325 [main] INFO  com.example.MyLog4j22SLF4j - 改成./logs
+2024-01-04 13:27:09.325 [main] INFO  com.example.MyLog4j22SLF4j - this is test
+2024-01-04 13:27:09.325 [main] ERROR com.example.MyLog4j22SLF4j - error 4
+2024-01-04 13:27:09.325 [main] WARN  com.example.MyLog4j22SLF4j - warn

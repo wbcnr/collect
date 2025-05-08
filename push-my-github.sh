@@ -5,9 +5,9 @@
 # git log --pretty=oneline --abbrev-commit
 
 git add * 
-git commit -m "增加了java-read-memory-examples，javax-annotation-processing-Processor-Test，和两个sh文件"
+git commit -m "增加一个项目xx-slf4j-demo"
 # 给commit打标签
-git tag Ver20250508-1 -m "xxx"
+git tag Ver20250508-2
 
 # 设置全局用户名与邮件地址
 #git config --global user.name "wbcnr"

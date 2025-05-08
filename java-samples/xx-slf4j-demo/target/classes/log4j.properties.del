@@ -1,0 +1,65 @@
+log4j.rootLogger=ALL,console,dailyFile,rollingFile,logFile
+
+#log4j.appender.conso=org.apache.log4j.ConsoleAppender
+#log4j.appender.conso.layout=org.apache.log4j.PatternLayout
+#log4j.appender.conso.layout.conversionPattern=[%-10p]%r %l %d{yyyy-MM-dd HH:mm:ss.SSS} %m%n
+
+# 控制台(console)
+#log4j.appender.console=org.apache.log4j.ConsoleAppender
+#log4j.appender.console.Threshold=INFO
+#log4j.appender.console.ImmediateFlush=true
+#log4j.appender.console.Target=System.err
+#log4j.appender.console.layout=org.apache.log4j.PatternLayout
+#log4j.appender.console.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n
+# 日志文件(logFile)
+log4j.appender.logFile=org.apache.log4j.FileAppender
+log4j.appender.logFile.Threshold=INFO
+log4j.appender.logFile.ImmediateFlush=true
+log4j.appender.logFile.Append=true
+log4j.appender.logFile.File=./logs/log.log4j
+log4j.appender.logFile.layout=org.apache.log4j.PatternLayout
+log4j.appender.logFile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n
+## 滚动文件(rollingFile)
+#log4j.appender.rollingFile=org.apache.log4j.RollingFileAppender
+#log4j.appender.rollingFile.Threshold=DEBUG
+#log4j.appender.rollingFile.ImmediateFlush=true
+#log4j.appender.rollingFile.Append=true
+#log4j.appender.rollingFile.File=D:/logs/log.log4j
+#log4j.appender.rollingFile.MaxFileSize=200KB
+#log4j.appender.rollingFile.MaxBackupIndex=50
+#log4j.appender.rollingFile.layout=org.apache.log4j.PatternLayout
+#log4j.appender.rollingFile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n
+
+# 定期滚动日志文件(dailyFile)
+#log4j.appender.dailyFile=org.apache.log4j.DailyRollingFileAppender
+#log4j.appender.dailyFile.Threshold=INFO
+#log4j.appender.dailyFile.ImmediateFlush=true
+#log4j.appender.dailyFile.Append=true
+#log4j.appender.dailyFile.File=D:/logs/log.log4j
+#log4j.appender.dailyFile.DatePattern='.'yyyy-MM-dd
+#log4j.appender.dailyFile.layout=org.apache.log4j.PatternLayout
+#log4j.appender.dailyFile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n
+
+#下面给出一个例子，为“com.demo.test”包指定日志输出器“test”，“com.demo.test”包下所有类的日志都将输出到/log/test.log文件
+#log4j.logger.com.demo.test=DEBUG,test
+#log4j.appender.test=org.apache.log4j.FileAppender
+#log4j.appender.test.File=/log/test.log
+#log4j.appender.test.layout=org.apache.log4j.PatternLayout
+#log4j.appender.test.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n
+
+#也可以让同一个类输出不同的日志，为达到这个目的，需要在这个类中实例化两个logger
+#private static Log logger1 = LogFactory.getLog("myTest1");
+#private static Log logger2 = LogFactory.getLog("myTest2");
+#然后分别配置
+#log4j.logger.myTest1= DEBUG,test1
+#log4j.additivity.myTest1=false
+#log4j.appender.test1=org.apache.log4j.FileAppender
+#log4j.appender.test1.File=/log/test1.log
+#log4j.appender.test1.layout=org.apache.log4j.PatternLayout
+#log4j.appender.test1.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n
+#
+#log4j.logger.myTest2=DEBUG,test2
+#log4j.appender.test2=org.apache.log4j.FileAppender
+#log4j.appender.test2.File=/log/test2.log
+#log4j.appender.test2.layout=org.apache.log4j.PatternLayout
+#log4j.appender.test2.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n

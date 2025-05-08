@@ -1,0 +1,4 @@
+2024-01-03 20:37:29 [INFO] this is slf4j + log4j info.
+2024-01-03 20:37:29 [ERROR] this is slf4j + log4j error.
+2024-01-03 20:37:29 [WARN] this is slf4j + log4j warn.
+2024-01-03 20:37:29 [INFO] this is slf4j + log4j org.slf4j.reload4j.Reload4jLoggerAdapter@2b71fc7e
