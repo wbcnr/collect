@@ -1,0 +1,25 @@
+# Nacos服务的Consumer，发现服务，调用服务。
+server:
+  port: 8082
+
+spring:
+  application:
+    # 应用名称，也是默认注册到nacos上的名称。
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册中心
+        server-addr: 127.0.0.1:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #暴露所有 Actuator 端点，便于监控和运维
+        include: "*"
+# Nacos服务提供者的URL
+service:
+  nacos:
+    provider:
+      url: http://127.0.0.1:8083/Nacos/Services/Provider/demo1

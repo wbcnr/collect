@@ -1,0 +1,31 @@
+# Nacos服务的Consumer，发现服务，调用服务。
+server:
+  # 使用JVM提供的参数，否则使用默认端口8083
+  port: ${server.prot:8083}
+
+spring:
+  application:
+    # 应用名称，也是默认注册到nacos上的名称。
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册中心
+        server-addr: 127.0.0.1:8848
+        # 是否是临时性实例，临时性：服务实例下线或者网络中断，nacos不会保留信息。非临时性：nacos会保修信息。默认：非临时性
+        ephemeral: false # 设置为非临时实例
+#    loadbalancer:
+#      ribbon:
+#        enabled: false
+#      nacos:
+#        enabled: true
+
+#  spring.cloud.loadbalancer.ribbon.enabled=false
+#  spring.cloud.loadbalancer.nacos.enabled=true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #暴露所有 Actuator 端点，便于监控和运维
+        include: "*"

@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "app.user",
+      "type": "org.d13.config.MyConfig",
+      "sourceType": "org.d13.config.MyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.user.addr",
+      "type": "java.lang.String",
+      "sourceType": "org.d13.config.MyConfig"
+    },
+    {
+      "name": "app.user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "org.d13.config.MyConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.user.name",
+      "type": "java.lang.String",
+      "description": "user.name无法获取更新配置，可能与系统默认的user.name冲突了。",
+      "sourceType": "org.d13.config.MyConfig"
+    }
+  ],
+  "hints": []
+}

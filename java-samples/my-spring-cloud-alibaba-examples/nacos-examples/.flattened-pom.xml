@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.d13</groupId>
+    <artifactId>my-spring-cloud-alibaba-examples</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>org.d13</groupId>
+  <artifactId>nacos-examples</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Nacos Examples</name>
+  <description>Nacos 测试代码</description>
+  <modules>
+    <module>nacos-config-example</module>
+    <module>nacos-consumer-example</module>
+    <module>nacos-provider-examples</module>
+  </modules>
+</project>

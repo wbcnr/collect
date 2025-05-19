@@ -1,0 +1,115 @@
+2025-03-26 14:27:04.320 [main] INFO  c.a.n.c.e.SearchableProperties properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2025-03-26 14:27:05.240 [main] INFO  o.d.NacosProviderApplication Starting NacosProviderApplication using Java 1.8.0_202 on W7-20200925UMIL with PID 8004 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\nacos-examples\nacos-provider-examples\target\classes started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples)
+2025-03-26 14:27:05.243 [main] INFO  o.d.NacosProviderApplication No active profile set, falling back to 1 default profile: "default"
+2025-03-26 14:27:08.737 [main] INFO  o.s.c.c.s.GenericScope BeanFactory id=179a2362-9169-343d-acc5-f81c93910a51
+2025-03-26 14:27:09.809 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-03-26 14:27:09.837 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:27:09.841 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-03-26 14:27:09.841 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-03-26 14:27:10.235 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-03-26 14:27:10.236 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4706 ms
+2025-03-26 14:27:14.238 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver Exposing 17 endpoint(s) beneath base path '/actuator'
+2025-03-26 14:27:14.394 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:27:14.456 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-03-26 14:27:14.628 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-26 14:27:14.643 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-26 14:27:22.337 [main] INFO  o.a.c.h.Http11NioProtocol Pausing ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:27:22.338 [main] INFO  o.a.c.c.StandardService Stopping service [Tomcat]
+2025-03-26 14:27:22.339 [main] INFO  o.a.c.h.Http11NioProtocol Stopping ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:27:22.339 [main] INFO  o.a.c.h.Http11NioProtocol Destroying ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:27:22.402 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-03-26 14:34:22.161 [main] INFO  c.a.n.c.e.SearchableProperties properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2025-03-26 14:34:22.317 [main] INFO  o.d.NacosProviderApplication Starting NacosProviderApplication using Java 1.8.0_202 on W7-20200925UMIL with PID 6940 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\nacos-examples\nacos-provider-examples\target\classes started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples)
+2025-03-26 14:34:22.317 [main] INFO  o.d.NacosProviderApplication No active profile set, falling back to 1 default profile: "default"
+2025-03-26 14:34:23.845 [main] INFO  o.s.c.c.s.GenericScope BeanFactory id=179a2362-9169-343d-acc5-f81c93910a51
+2025-03-26 14:34:24.313 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-03-26 14:34:24.329 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:34:24.329 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-03-26 14:34:24.329 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-03-26 14:34:24.579 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-03-26 14:34:24.579 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2169 ms
+2025-03-26 14:34:27.823 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver Exposing 17 endpoint(s) beneath base path '/actuator'
+2025-03-26 14:34:28.011 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-03-26 14:34:28.057 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-03-26 14:34:28.167 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-26 14:34:28.167 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-26 14:34:31.228 [main] INFO  c.a.c.n.r.NacosServiceRegistry nacos registry, DEFAULT_GROUP nacos-provider 192.168.3.230:18081 register finished
+2025-03-26 14:34:32.384 [main] INFO  o.d.NacosProviderApplication Started NacosProviderApplication in 12.539 seconds (JVM running for 14.57)
+2025-03-26 14:34:32.399 [main] INFO  o.d.NacosProviderApplication slf4j+logback: NacosProviderApplication running.
+2025-03-26 14:34:32.774 [RMI TCP Connection(1)-192.168.56.1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-26 14:34:32.774 [RMI TCP Connection(1)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-03-26 14:34:32.774 [RMI TCP Connection(1)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 0 ms
+2025-03-26 15:02:16.949 [http-nio-18081-exec-1] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#get()
+2025-03-26 15:07:46.935 [http-nio-18081-exec-2] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam()
+2025-03-26 15:09:23.323 [main] INFO  c.a.n.c.e.SearchableProperties properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2025-03-26 15:09:23.485 [main] INFO  o.d.NacosProviderApplication Starting NacosProviderApplication using Java 1.8.0_202 on W7-20200925UMIL with PID 8352 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\nacos-examples\nacos-provider-examples\target\classes started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples)
+2025-03-26 15:09:23.485 [main] INFO  o.d.NacosProviderApplication No active profile set, falling back to 1 default profile: "default"
+2025-03-26 15:09:25.062 [main] INFO  o.s.c.c.s.GenericScope BeanFactory id=179a2362-9169-343d-acc5-f81c93910a51
+2025-03-26 15:09:25.568 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-03-26 15:09:25.568 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-03-26 15:09:25.568 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-03-26 15:09:25.568 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-03-26 15:09:25.821 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-03-26 15:09:25.821 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2257 ms
+2025-03-26 15:09:28.829 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver Exposing 17 endpoint(s) beneath base path '/actuator'
+2025-03-26 15:09:28.945 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-03-26 15:09:28.967 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-03-26 15:09:29.030 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-26 15:09:29.030 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-26 15:09:31.519 [main] INFO  c.a.c.n.r.NacosServiceRegistry nacos registry, DEFAULT_GROUP nacos-provider 192.168.3.230:18081 register finished
+2025-03-26 15:09:32.155 [main] INFO  o.d.NacosProviderApplication Started NacosProviderApplication in 11.082 seconds (JVM running for 12.973)
+2025-03-26 15:09:32.170 [main] INFO  o.d.NacosProviderApplication slf4j+logback: NacosProviderApplication running.
+2025-03-26 15:09:33.518 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-26 15:09:33.518 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-03-26 15:09:33.518 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 0 ms
+2025-03-26 15:09:52.144 [http-nio-18081-exec-1] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs
+2025-03-26 15:10:55.139 [http-nio-18081-exec-3] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs
+2025-03-26 15:12:31.715 [main] INFO  c.a.n.c.e.SearchableProperties properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2025-03-26 15:12:31.887 [main] INFO  o.d.NacosProviderApplication Starting NacosProviderApplication using Java 1.8.0_202 on W7-20200925UMIL with PID 3112 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\nacos-examples\nacos-provider-examples\target\classes started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples)
+2025-03-26 15:12:31.887 [main] INFO  o.d.NacosProviderApplication No active profile set, falling back to 1 default profile: "default"
+2025-03-26 15:12:33.419 [main] INFO  o.s.c.c.s.GenericScope BeanFactory id=179a2362-9169-343d-acc5-f81c93910a51
+2025-03-26 15:12:33.888 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18082 (http)
+2025-03-26 15:12:33.888 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18082"]
+2025-03-26 15:12:33.888 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-03-26 15:12:33.888 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-03-26 15:12:34.143 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-03-26 15:12:34.143 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2192 ms
+2025-03-26 15:12:37.189 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver Exposing 17 endpoint(s) beneath base path '/actuator'
+2025-03-26 15:12:37.299 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18082"]
+2025-03-26 15:12:37.314 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18082 (http) with context path ''
+2025-03-26 15:12:37.392 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-26 15:12:37.392 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-26 15:12:39.958 [main] INFO  c.a.c.n.r.NacosServiceRegistry nacos registry, DEFAULT_GROUP nacos-provider 192.168.3.230:18082 register finished
+2025-03-26 15:12:40.668 [main] INFO  o.d.NacosProviderApplication Started NacosProviderApplication in 11.332 seconds (JVM running for 13.286)
+2025-03-26 15:12:40.683 [main] INFO  o.d.NacosProviderApplication slf4j+logback: NacosProviderApplication running.
+2025-03-26 15:12:41.659 [RMI TCP Connection(1)-192.168.56.1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-26 15:12:41.659 [RMI TCP Connection(1)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-03-26 15:12:41.659 [RMI TCP Connection(1)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 0 ms
+2025-03-26 15:13:11.604 [http-nio-18082-exec-1] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs
+2025-03-26 15:13:37.185 [http-nio-18081-exec-5] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs
+2025-03-26 15:13:51.257 [http-nio-18082-exec-2] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs
+2025-03-26 15:16:43.615 [http-nio-18081-exec-7] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs
+2025-03-26 15:18:22.139 [main] INFO  c.a.n.c.e.SearchableProperties properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2025-03-26 15:18:22.333 [main] INFO  o.d.NacosProviderApplication Starting NacosProviderApplication using Java 1.8.0_202 on W7-20200925UMIL with PID 8336 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\nacos-examples\nacos-provider-examples\target\classes started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples)
+2025-03-26 15:18:22.333 [main] INFO  o.d.NacosProviderApplication No active profile set, falling back to 1 default profile: "default"
+2025-03-26 15:18:23.932 [main] INFO  o.s.c.c.s.GenericScope BeanFactory id=179a2362-9169-343d-acc5-f81c93910a51
+2025-03-26 15:18:24.397 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-03-26 15:18:24.397 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-03-26 15:18:24.413 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-03-26 15:18:24.413 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-03-26 15:18:24.664 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-03-26 15:18:24.664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2230 ms
+2025-03-26 15:18:27.760 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver Exposing 17 endpoint(s) beneath base path '/actuator'
+2025-03-26 15:18:27.870 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-03-26 15:18:27.901 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-03-26 15:18:27.980 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-03-26 15:18:27.980 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-03-26 15:18:30.431 [main] INFO  c.a.c.n.r.NacosServiceRegistry nacos registry, DEFAULT_GROUP nacos-provider 192.168.3.230:18081 register finished
+2025-03-26 15:18:31.072 [main] INFO  o.d.NacosProviderApplication Started NacosProviderApplication in 11.348 seconds (JVM running for 13.242)
+2025-03-26 15:18:31.072 [main] INFO  o.d.NacosProviderApplication slf4j+logback: NacosProviderApplication running.
+2025-03-26 15:18:32.101 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-26 15:18:32.117 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-03-26 15:18:32.117 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 0 ms
+2025-03-26 15:19:49.362 [http-nio-18081-exec-1] INFO  o.d.c.NacosFeignController 这是Nacos Feign的服务提供者，NacosFeignController#getWithParam(), arg = thisisargs

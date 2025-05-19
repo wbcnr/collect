@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/custom-processor-with-processor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom-processor-with-processor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom-processor-with-processor2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom-processor-with-processor2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/nacos-config-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/nacos-config-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/nacos-consumer-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/nacos-consumer-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/nacos-provider-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/nacos-provider-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/account-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/business-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/business-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/storage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-examples/storage-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

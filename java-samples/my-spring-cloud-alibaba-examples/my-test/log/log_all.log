@@ -1,0 +1,63 @@
+2025-05-17 21:26:33.673 [main] INFO  o.d.ApplicationMyTest Starting ApplicationMyTest using Java 1.8.0_202 on DESKTOP-JLLAGV3 with PID 9328 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\target\my-test-1.0.0-SNAPSHOT.jar started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\target)
+2025-05-17 21:26:33.684 [main] INFO  o.d.ApplicationMyTest No active profile set, falling back to 1 default profile: "default"
+2025-05-17 21:26:37.867 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-05-17 21:26:37.910 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-05-17 21:26:37.921 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-05-17 21:26:37.924 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-05-17 21:26:38.275 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-05-17 21:26:38.276 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4402 ms
+2025-05-17 21:26:39.564 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-05-17 21:26:39.628 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-05-17 21:26:39.654 [main] INFO  o.d.ApplicationMyTest Started ApplicationMyTest in 7.874 seconds (JVM running for 9.116)
+2025-05-17 21:26:48.679 [http-nio-18081-exec-1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-17 21:26:48.681 [http-nio-18081-exec-1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-05-17 21:26:48.684 [http-nio-18081-exec-1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 2 ms
+2025-05-17 21:26:48.793 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect before start ...
+2025-05-17 21:26:48.794 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect ============打印日志开始============
+2025-05-17 21:26:48.795 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect URL: [null]
+2025-05-17 21:26:48.796 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect ============打印日志结束============
+2025-05-17 21:26:48.796 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect before end ...
+2025-05-17 21:26:48.844 [http-nio-18081-exec-1] INFO  o.d.c.AOPTestController 正在执行方法: public class AOPTestController#TestAOPAnnotation2().
+2025-05-17 21:26:48.846 [http-nio-18081-exec-1] INFO  o.d.c.AOPTestController 在这个方法执行的前后，会执行AOP方式实现的日志。
+2025-05-17 21:37:05.627 [main] INFO  o.d.ApplicationMyTest Starting ApplicationMyTest using Java 1.8.0_202 on DESKTOP-JLLAGV3 with PID 11900 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\target\my-test-1.0.0-SNAPSHOT.jar started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\target)
+2025-05-17 21:37:05.635 [main] INFO  o.d.ApplicationMyTest No active profile set, falling back to 1 default profile: "default"
+2025-05-17 21:37:11.411 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-05-17 21:37:11.438 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-05-17 21:37:11.447 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-05-17 21:37:11.448 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-05-17 21:37:11.700 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-05-17 21:37:11.700 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 5891 ms
+2025-05-17 21:37:13.668 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-05-17 21:37:13.748 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-05-17 21:37:13.801 [main] INFO  o.d.ApplicationMyTest Started ApplicationMyTest in 10.15 seconds (JVM running for 11.393)
+2025-05-17 21:37:37.213 [http-nio-18081-exec-1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-17 21:37:37.214 [http-nio-18081-exec-1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-05-17 21:37:37.218 [http-nio-18081-exec-1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 3 ms
+2025-05-17 21:37:37.331 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect 以 execution(public * org.d13.controller.AOPTestController.TestAOPAnnotation*(..)) && @annotation(org.d13.annotation.LogExecutionTime) 的方式实现AOP注解。
+2025-05-17 21:37:37.332 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect before start ...
+2025-05-17 21:37:37.333 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect ============打印日志开始============
+2025-05-17 21:37:37.334 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect URL: [null]
+2025-05-17 21:37:37.334 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect ============打印日志结束============
+2025-05-17 21:37:37.335 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect before end ...
+2025-05-17 21:37:37.386 [http-nio-18081-exec-1] INFO  o.d.c.AOPTestController TestAOPAnnotation : 测是AOP注解。
+2025-05-17 21:40:25.545 [main] INFO  o.d.ApplicationMyTest Starting ApplicationMyTest using Java 1.8.0_202 on DESKTOP-JLLAGV3 with PID 9528 (E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\target\my-test-1.0.0-SNAPSHOT.jar started by Administrator in E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\target)
+2025-05-17 21:40:25.556 [main] INFO  o.d.ApplicationMyTest No active profile set, falling back to 1 default profile: "default"
+2025-05-17 21:40:29.729 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 18081 (http)
+2025-05-17 21:40:29.758 [main] INFO  o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-18081"]
+2025-05-17 21:40:29.765 [main] INFO  o.a.c.c.StandardService Starting service [Tomcat]
+2025-05-17 21:40:29.770 [main] INFO  o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-05-17 21:40:30.117 [main] INFO  o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2025-05-17 21:40:30.118 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4394 ms
+2025-05-17 21:40:31.861 [main] INFO  o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-18081"]
+2025-05-17 21:40:31.948 [main] INFO  o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 18081 (http) with context path ''
+2025-05-17 21:40:32.069 [main] INFO  o.d.ApplicationMyTest Started ApplicationMyTest in 8.096 seconds (JVM running for 9.365)
+2025-05-17 21:40:52.587 [http-nio-18081-exec-1] INFO  o.a.c.c.C.[.[.[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-17 21:40:52.588 [http-nio-18081-exec-1] INFO  o.s.w.s.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-05-17 21:40:52.590 [http-nio-18081-exec-1] INFO  o.s.w.s.DispatcherServlet Completed initialization in 2 ms
+2025-05-17 21:40:52.705 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect 以 @Pointcut("@annotation(org.d13.annotation.LogExecutionTime)") 的方式实现AOP注解。
+2025-05-17 21:40:52.706 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect before start ...
+2025-05-17 21:40:52.707 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect ============打印日志开始============
+2025-05-17 21:40:52.707 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect URL: [null]
+2025-05-17 21:40:52.708 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect ============打印日志结束============
+2025-05-17 21:40:52.709 [http-nio-18081-exec-1] INFO  o.d.a.DemoAspect before end ...
+2025-05-17 21:40:52.761 [http-nio-18081-exec-1] INFO  o.d.c.AOPTestController TestAOPAnnotation : 测是AOP注解。

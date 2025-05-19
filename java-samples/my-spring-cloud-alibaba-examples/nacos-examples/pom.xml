@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>my-spring-cloud-alibaba-examples</artifactId>
+        <groupId>org.d13</groupId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath> <!-- 指向父pom的路径 -->
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>nacos-examples</artifactId>
+    <packaging>pom</packaging>
+    <name>Nacos Examples</name>
+    <description>Nacos 测试代码</description>
+
+    <!--子模块-->
+    <modules>
+        <module>nacos-config-example</module>
+        <module>nacos-consumer-example</module>
+        <module>nacos-provider-examples</module>
+    </modules>
+
+
+</project>

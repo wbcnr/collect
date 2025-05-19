@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d32a647-f89f-4903-abfd-e5332325e13d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="HTTP Request" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7-sources.jar!/org/aspectj/lang/annotation/Around.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7-sources.jar!/org/aspectj/weaver/tools/PointcutParser.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/SpringApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31-sources.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31-sources.jar!/org/springframework/aop/support/AopUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-beans/5.3.31/spring-beans-5.3.31-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Mvn_Repository/org/springframework/spring-context/5.3.31/spring-context-5.3.31-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="D:/dev/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\dev\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="springframework" pattern="org.springframework.*&amp;&amp;!lib:org.springframework.boot.*||lib:org.springframework.aop.scope.*||lib:org.springframework.aop.config.*||lib:org.springframework.aop.target.dynamic.*||lib:org.springframework.aop.target.*||lib:org.springframework.aop.aspectj.autoproxy.*||lib:org.springframework.aop.aspectj.annotation.*||lib:org.springframework.aop.aspectj.*||lib:org.springframework.aop.support.annotation.*||lib:org.springframework.aop.support.*||lib:org.springframework.aop.framework.adapter.*||lib:org.springframework.aop.framework.autoproxy.target.*||lib:org.springframework.aop.framework.autoproxy.*||lib:org.springframework.aop.framework.*||lib:org.springframework.aop.interceptor.*||lib:org.springframework.aop.*||lib:org.springframework.ui.context.support.*||lib:org.springframework.ui.context.*||lib:org.springframework.ui.*||lib:org.springframework.ejb.access.*||lib:org.springframework.ejb.config.*||lib:org.springframework.jmx.access.*||lib:org.springframework.jmx.export.naming.*||lib:org.springframework.jmx.export.metadata.*||lib:org.springframework.jmx.export.assembler.*||lib:org.springframework.jmx.export.annotation.*||lib:org.springframework.jmx.export.notification.*||lib:org.springframework.jmx.export.*||lib:org.springframework.jmx.support.*||lib:org.springframework.jmx.*||lib:org.springframework.jndi.support.*||lib:org.springframework.jndi.*||lib:org.springframework.cache.config.*||lib:org.springframework.cache.support.*||lib:org.springframework.cache.*||lib:org.springframework.cache.annotation.*||lib:org.springframework.cache.concurrent.*||lib:org.springframework.cache.interceptor.*||lib:org.springframework.format.number.money.*||lib:org.springframework.format.number.*||lib:org.springframework.format.support.*||lib:org.springframework.format.datetime.joda.*||lib:org.springframework.format.datetime.standard.*||lib:org.springframework.format.datetime.*||lib:org.springframework.format.annotation.*||lib:org.springframework.format.*||lib:org.springframework.context.i18n.*||lib:org.springframework.context.event.*||lib:org.springframework.context.index.*||lib:org.springframework.context.config.*||lib:org.springframework.context.support.*||lib:org.springframework.context.weaving.*||lib:org.springframework.context.annotation.*||lib:org.springframework.context.expression.*||lib:org.springframework.context.*||lib:org.springframework.remoting.rmi.*||lib:org.springframework.remoting.soap.*||lib:org.springframework.remoting.support.*||lib:org.springframework.remoting.*||lib:org.springframework.scripting.bsh.*||lib:org.springframework.scripting.config.*||lib:org.springframework.scripting.groovy.*||lib:org.springframework.scripting.support.*||lib:org.springframework.scripting.*||lib:org.springframework.instrument.classloading.jboss.*||lib:org.springframework.instrument.classloading.tomcat.*||lib:org.springframework.instrument.classloading.weblogic.*||lib:org.springframework.instrument.classloading.glassfish.*||lib:org.springframework.instrument.classloading.websphere.*||lib:org.springframework.instrument.classloading.*||lib:org.springframework.scheduling.config.*||lib:org.springframework.scheduling.support.*||lib:org.springframework.scheduling.annotation.*||lib:org.springframework.scheduling.concurrent.*||lib:org.springframework.scheduling.*||lib:org.springframework.stereotype.*||lib:org.springframework.validation.support.*||lib:org.springframework.validation.annotation.*||lib:org.springframework.validation.*||lib:org.springframework.validation.beanvalidation.*||lib:org.springframework.asm.*||lib:org.springframework.core.io.buffer.*||lib:org.springframework.core.io.support.*||lib:org.springframework.core.io.*||lib:org.springframework.core.env.*||lib:org.springframework.core.log.*||lib:org.springframework.core.task.support.*||lib:org.springframework.core.task.*||lib:org.springframework.core.type.filter.*||lib:org.springframework.core.type.classreading.*||lib:org.springframework.core.type.*||lib:org.springframework.core.codec.*||lib:org.springframework.core.style.*||lib:org.springframework.core.convert.support.*||lib:org.springframework.core.convert.converter.*||lib:org.springframework.core.convert.*||lib:org.springframework.core.metrics.jfr.*||lib:org.springframework.core.metrics.*||lib:org.springframework.core.annotation.*||lib:org.springframework.core.serializer.support.*||lib:org.springframework.core.serializer.*||lib:org.springframework.core.*||lib:org.springframework.lang.*||lib:org.springframework.util.xml.*||lib:org.springframework.util.unit.*||lib:org.springframework.util.backoff.*||lib:org.springframework.util.function.*||lib:org.springframework.util.comparator.*||lib:org.springframework.util.concurrent.*||lib:org.springframework.util.*||lib:org.springframework.cglib.core.*||lib:org.springframework.cglib.beans.*||lib:org.springframework.cglib.proxy.*||lib:org.springframework.cglib.*||lib:org.springframework.objenesis.*" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2uQm2C66oG8jwwi5r0hXuxYSMLb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/idea_workspace/java_workspace/springclouddemos/my-spring-cloud-alibaba-examples",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "138672b4a8856dc43e3bb3cb8da39764",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTTP Request"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\custom-processor-with-processor\src\main\resources" />
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\custom-processor-with-processor\src\main\resources\META-INF\services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.d13.examples.controller" />
+      <recent name="org.d13.examples.config" />
+      <recent name="org.d13.examples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\my-test\src\main\resources" />
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\custom-processor-with-processor2\src\main\java" />
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\seata-examples" />
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\seata-examples\storage-service\src\main\resources" />
+      <recent name="E:\idea_workspace\java_workspace\springclouddemos\my-spring-cloud-alibaba-examples\seata-examples\order-service\src\main\java\org\d13\examples" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:18081/seata/feign" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/nacos/consummer/get/thisisargs" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/nacos/consummer/get" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8083/Nacos/Services/Provider//get" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="GET http://localhost:8081/demo3&#10;Accept: application/json" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/nacos/consummer/get/provider/demo1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/demo3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config/refresh/configurationproperties" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config/test/addlistener" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config2/demo" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config/test/namespace" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config/get/nacos-factory" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config/get" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/config//get/nacos-factory" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/actuator/refresh" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/get/serviceprovider/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/echo/app-name" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/echo/Tom Hanks" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn -U clean install " />
+      <command value="mvn clean" />
+      <command value="mvn  clean install " />
+      <command value="mvn clean install -Dmaven.test.skip=true" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationMyTest">
+    <configuration name="LoggableProcessorByReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.d13.annotation.LoggableProcessorByReflection" />
+      <module name="my-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.d13.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scratch | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationMyTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.ApplicationMyTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="business-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.examples.BusinessApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.d13.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-config-example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.ApplicationNacosConfig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-consumer-example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.NacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProvider2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-provider-examples" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.NacosProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=18082" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-provider-examples" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.NacosProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=18081" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.examples.OrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.d13.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="storage-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.d13.examples.StorageApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.d13.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LoggableProcessorByReflection" />
+      <item itemvalue="HTTP Request.scratch | #1" />
+      <item itemvalue="Spring Boot.NacosProviderApplication" />
+      <item itemvalue="Spring Boot.NacosProvider2" />
+      <item itemvalue="Spring Boot.ApplicationMyTest" />
+      <item itemvalue="Spring Boot.NacosConfigApplication" />
+      <item itemvalue="Spring Boot.NacosConsumerApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.StorageApplication" />
+      <item itemvalue="Spring Boot.BusinessApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.scratch | #1" />
+        <item itemvalue="Application.LoggableProcessorByReflection" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="Spring Boot.StorageApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA,SHOW_PROPERTIES,SHOW_ANONYMOUS,SHOW_INTERFACES,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d32a647-f89f-4903-abfd-e5332325e13d" name="Default Changelist" comment="" />
+      <created>1742188962683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742188962683</updated>
+      <workItem from="1742188968029" duration="12294000" />
+      <workItem from="1742213820588" duration="3295000" />
+      <workItem from="1742260884747" duration="12432000" />
+      <workItem from="1742280208383" duration="5114000" />
+      <workItem from="1742344487267" duration="2861000" />
+      <workItem from="1742348095184" duration="454000" />
+      <workItem from="1742348637173" duration="27844000" />
+      <workItem from="1742432452830" duration="30986000" />
+      <workItem from="1742519748758" duration="31592000" />
+      <workItem from="1742612002308" duration="12309000" />
+      <workItem from="1742699951508" duration="19626000" />
+      <workItem from="1742743003634" duration="309000" />
+      <workItem from="1742743396169" duration="1248000" />
+      <workItem from="1742750937874" duration="3163000" />
+      <workItem from="1742754238178" duration="1129000" />
+      <workItem from="1742798380128" duration="18030000" />
+      <workItem from="1742825306906" duration="653000" />
+      <workItem from="1742826641219" duration="110000" />
+      <workItem from="1742826825766" duration="1567000" />
+      <workItem from="1742874349200" duration="18906000" />
+      <workItem from="1742951764066" duration="221000" />
+      <workItem from="1742952639844" duration="23228000" />
+      <workItem from="1743044352968" duration="4098000" />
+      <workItem from="1743067639635" duration="591000" />
+      <workItem from="1743123815437" duration="14966000" />
+      <workItem from="1743245020745" duration="1714000" />
+      <workItem from="1743319749160" duration="587000" />
+      <workItem from="1743384917260" duration="591000" />
+      <workItem from="1743661065817" duration="1397000" />
+      <workItem from="1743666310724" duration="12122000" />
+      <workItem from="1744011371085" duration="5174000" />
+      <workItem from="1744019053815" duration="12647000" />
+      <workItem from="1744073182282" duration="1487000" />
+      <workItem from="1744075443265" duration="12004000" />
+      <workItem from="1744157738987" duration="2849000" />
+      <workItem from="1744186763745" duration="1440000" />
+      <workItem from="1744194683084" duration="585000" />
+      <workItem from="1744329200989" duration="2546000" />
+      <workItem from="1744357183013" duration="3597000" />
+      <workItem from="1744428456054" duration="731000" />
+      <workItem from="1744440716613" duration="12089000" />
+      <workItem from="1744530137289" duration="4426000" />
+      <workItem from="1744587438260" duration="587000" />
+      <workItem from="1744597316828" duration="1221000" />
+      <workItem from="1744602007683" duration="5515000" />
+      <workItem from="1744619246218" duration="11489000" />
+      <workItem from="1744677331767" duration="32241000" />
+      <workItem from="1744785326584" duration="6752000" />
+      <workItem from="1745067948926" duration="5221000" />
+      <workItem from="1745325636515" duration="551000" />
+      <workItem from="1745326229102" duration="1939000" />
+      <workItem from="1745328209174" duration="545000" />
+      <workItem from="1745329857484" duration="2384000" />
+      <workItem from="1745333381405" duration="916000" />
+      <workItem from="1746236731016" duration="410000" />
+      <workItem from="1746714727015" duration="601000" />
+      <workItem from="1746860834097" duration="2664000" />
+      <workItem from="1747153011073" duration="5566000" />
+      <workItem from="1747270460130" duration="2194000" />
+      <workItem from="1747443371549" duration="11211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataEnvironmentPostProcessor.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataEnvironment.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>343</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/SpringApplicationRunListeners.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/SpringApplicationRunListeners.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/event/EventPublishingRunListener.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/env/EnvironmentPostProcessorApplicationListener.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/3.1.5/spring-cloud-commons-3.1.5-sources.jar!/org/springframework/cloud/commons/ConfigDataMissingEnvironmentPostProcessor.java</url>
+          <line>83</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/refresh/NacosContextRefresher.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/NacosPropertySourceRepository.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/configdata/NacosConfigDataLoader.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/configdata/NacosConfigDataLoader.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataImporter.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataImporter.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="profiles != null" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataLocationResolvers.java</url>
+          <line>114</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataLocationResolvers.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataImporter.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="location.value.equals(&quot;nacos:application.yaml&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.18/spring-boot-2.7.18-sources.jar!/org/springframework/boot/context/config/ConfigDataLocationResolvers.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/configdata/NacosConfigDataLocationResolver.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/configdata/NacosConfigDataLocationResolver.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/context/scope/GenericScope.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/context/scope/GenericScope.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/endpoint/event/RefreshEventListener.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/context/scope/refresh/RefreshScope.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/refresh/NacosContextRefresher.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/3.1.5/spring-cloud-commons-3.1.5-sources.jar!/org/springframework/cloud/commons/ConfigDataMissingEnvironmentPostProcessor.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-examples/nacos-config-example/src/main/java/org/d13/controller/GetConfigInfoController.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/impl/ClientWorker.java</url>
+          <line>1012</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-examples/nacos-config-example/src/main/java/org/d13/controller/ConfigController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/context/refresh/ContextRefresher.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/context/refresh/ContextRefresher.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar!/org/springframework/cloud/context/refresh/ConfigDataContextRefresher.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/2.2.0/nacos-client-2.2.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.6.2/spring-cloud-starter-alibaba-nacos-config-2021.0.6.2-sources.jar!/com/alibaba/cloud/nacos/configdata/NacosConfigDataLoader.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-examples/nacos-config-example/src/main/java/org/d13/ApplicationNacosConfig.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

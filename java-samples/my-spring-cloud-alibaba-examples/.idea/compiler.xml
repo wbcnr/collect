@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-test" />
+        <module name="nacos-consumer-example" />
+        <module name="custom-processor-with-processor2" />
+        <module name="nacos-config-example" />
+        <module name="business-service" />
+        <module name="nacos-provider-examples" />
+        <module name="storage-service" />
+        <module name="order-service" />
+        <module name="account-service" />
+        <module name="MyTest2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="seata-examples" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

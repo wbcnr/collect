@@ -1,0 +1,8 @@
+org\d13\controller\ControllerForTest.class
+org\d13\controller\NacosFeignController.class
+org\d13\controller\ConsumerControllerFromAI.class
+org\d13\service\NacosProviderServiceAgent.class
+org\d13\controller\ConsumerControllerA.class
+org\d13\NacosConsumerApplication.class
+org\d13\service\NacosFeignServiceAgent1.class
+org\d13\config\ConsumerConfig.class

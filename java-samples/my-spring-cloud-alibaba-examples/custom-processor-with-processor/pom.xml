@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>my-spring-cloud-alibaba-examples</artifactId>
+        <groupId>org.d13</groupId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath> <!-- 指向父pom的路径 -->
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>custom-processor-with-processor</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Custom Processor With Processor Interface</name>
+    <description>自定义注解和注解处理器，通过实现java接口：Processor</description>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.5.1</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>default-compile</id>
+                            <configuration>
+                                <!--由于在这里手动配置了 META-INF.services ，因此需要将 Processor 设置为在编译时禁用。
+                                否则，它将被 ServiceLoader 加载，并在编译期间抛出类未找到异常。主要参数如下：
+                                -->
+                                <compilerArgument>-proc:none</compilerArgument>
+                            </configuration>
+                        </execution>
+                        <execution>
+                            <id>compile-project</id>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>compile</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+            </plugins>
+
+        </pluginManagement>
+
+    </build>
+</project>

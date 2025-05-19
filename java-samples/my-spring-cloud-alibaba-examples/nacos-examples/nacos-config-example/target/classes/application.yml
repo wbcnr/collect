@@ -1,0 +1,40 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    # （疑问）在spring-cloud-starter-alibaba-nacos-config中，这个配置是“命名空间”，也就是开发环境、生产环境、测试环境等。
+    active: dev
+  application:
+    name: nacos-config-example
+  cloud:
+    nacos:
+      config:
+        serverAddr: 127.0.0.1:8848
+        # Nacos 配置文件扩展名
+        file-extension: yaml
+        # Nacos 命名空间ID 默认:public,  配置的是： dev的。
+        namespace: d870a66b-2455-47a6-a5bd-f79697a22a2a
+        # Nacos 分组 默认分组：DEFAULT_GROUP ，要测试的分组
+        group: DEFAULT_GROUP
+#        username: 'nacos'
+#        password: 'nacos'
+        extendKey: value
+  config:
+    import:
+      - optional:nacos:nacos-config-example.yaml?refresh=true
+      - optional:nacos:nacos-config-example-dev.yaml?refresh=true
+      - optional:nacos:another.yaml?refresh=true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  level:
+    com.alibaba.cloud.nacos.configdata: debug
+
+
